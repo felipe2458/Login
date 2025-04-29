@@ -161,3 +161,48 @@
   text-decoration: none;
   color: #1E9E6A;
 }
+
+@media screen and (max-width: 1000px){
+  .container > div:first-child{
+    display: none;
+  }
+
+  .container > div:last-child{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .container {
+    overflow: hidden;
+  }
+
+  .container > div:last-child .form-wraper{
+    width: 327px;
+  }
+
+  .form-wraper form header p{
+    font-size: 16px;
+  }
+
+  .form-wraper form header h1{
+    font-size: 24px;
+  }
+
+  .form-wraper form .container-inputs .input-wraper label{
+    font-size: 14px;
+  }
+
+  .form-wraper form footer header p, .form-wraper form footer header a{
+    font-size: 14px;
+  }
+
+  .form-wraper form footer .container-buttons .button-wraper button,
+  .form-wraper form footer .container-buttons .button-wraper a{
+    font-size: 14px;
+  }
+
+  .form-wraper form footer footer p{
+    font-size: 16px;
+  }
+}
