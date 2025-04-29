@@ -1,0 +1,163 @@
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: 'Archivo', Arial, sans-serif;
+}
+
+.container > div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div:first-child{
+  background-color: #F3FFF2;
+}
+
+.container > div:last-child .form-wraper{
+  width: 400px;
+  height: 614px;
+  color: #1A202C;
+}
+
+.form-wraper form{
+  width: 100%;
+  height: 100%;
+}
+
+.form-wraper form header{
+  width: 100%;
+  height: 11%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-wraper form header p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-wraper form .container-inputs{
+  width: 100%;
+  height: 36%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-inputs .input-wraper{
+  width: 100%;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-inputs .input-wraper label{
+  font-size: 18px;
+}
+
+.container-inputs .input-wraper input{
+  width: 100%;
+  height: 49px;
+  background-color: #F7FAFC;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  color: #656769;
+  padding-left: 16px;
+}
+
+.container > div:last-child .form-wraper form footer{
+  width: 100%;
+  height: 53%;
+}
+
+.form-wraper form footer header{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-wraper form footer header p{
+  font-size: 16px;
+}
+
+.form-wraper form footer header a{
+  color: #1E9E6A;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-wraper form footer .container-buttons{
+  width: 100%;
+  height: 60%;
+  padding: 7% 0 0 0 ;
+}
+
+.form-wraper form footer .container-buttons .button-wraper{
+  width: 100%;
+  height: 52px;
+}
+
+.form-wraper form footer .container-buttons .button-wraper button,
+.form-wraper form footer .container-buttons .button-wraper a{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container-buttons .button-wraper button{
+  background-color: #1E9E6A;
+}
+
+.container-buttons .button-wraper button:hover{
+  background-color: #21a771;
+}
+
+.container-buttons .button-wraper a{
+  background-color: #1A202C;
+  margin-top: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-buttons .button-wraper a .icon{
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+
+.form-wraper form footer footer{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-wraper form footer footer p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-wraper form footer footer p a{
+  text-decoration: none;
+  color: #1E9E6A;
+}
